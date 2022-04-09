@@ -32,7 +32,6 @@ jobs:
           git config --global user.name "SayarB"
           git config --global user.email "sayarbhattacharyya03@gmail.com"
 
-          git checkout production
           git add build
 
           git commit -m "Build by github actions"
