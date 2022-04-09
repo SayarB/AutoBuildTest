@@ -35,4 +35,5 @@ jobs:
           git add build
 
           git commit -m "Build by github actions"
-          git push -u origin production
+          git push
+          
