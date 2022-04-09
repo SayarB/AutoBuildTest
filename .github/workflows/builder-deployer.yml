@@ -2,13 +2,12 @@ name: Node.js CI
 
 on:
   push:
-    branches: [main]
+    branches: [production]
   pull_request:
-    branches: [main]
+    branches: [production]
 
 env:
   CI: false
-
 
 jobs:
   build:
@@ -36,4 +35,3 @@ jobs:
           git add build
           git commit -m "Build by github actions"
           git push
-          
